@@ -1,0 +1,122 @@
+.changeAccount {
+    width: 50%;
+    margin: 30px 0;
+}
+
+.changeAccount h1 {
+    color: #344437;
+    font-size: 1.2rem;
+    text-align: start !important;
+    font-weight: 500 !important;
+}
+
+.changeAccount p {
+    color: #2F3930;
+    margin: 20px 0;
+}
+
+.buttonFlex {
+    margin-top: 30px;
+    display: flex;
+}
+
+.cancelButton {
+    margin-right: 10px;
+}
+
+.btnVisibility {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.passwordMis {
+  color: #FF3441;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+
+}
+
+.passwordMis p {
+    font-size: 1rem;
+}
+
+.passwordMis img {
+  margin-right: 10px;
+  width: 0.2px;
+}
+
+.otp {
+    border: 0.5px solid #344437;
+    border-radius: 8px;
+    height: 60px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.filledContainer {
+    display: flex;
+}
+
+.otpModule { 
+   border-left: 0.5px solid #3744396e;
+   padding: 0 40px;
+}
+
+.changeAccountModule {
+    padding: 0 20px;
+    width: 40%;
+    color: #344437;
+    opacity: 0.3;;
+}
+
+.accountUpdateModal h2 {
+    color: #344437;
+    font-weight: 400;
+    font-size: 1.5rem !important;
+    text-align: center;
+  }
+  
+  .accountUpdateModal p {
+      color: #2F3930;
+      font-weight: 300;
+      font-size: 1rem !important;
+      text-align: center;
+  }
+
+  .accountUpdateModal {
+    align-items: center;
+    text-align: center;
+  }
+
+  .accountUpdateModal img {
+    width: 40%;
+    margin: 20px 0;
+    
+  }
+
+@media screen and (max-width: 800px) {
+    .changeAccountModule {
+        padding: 0;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .otpModule {
+        border: 0;
+        padding: 0;
+    } 
+    .filledContainer {
+        flex-direction: column-reverse;
+    }
+ .changeAccount {
+    width: 100%;
+   
+}
+}
