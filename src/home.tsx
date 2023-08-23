@@ -37,6 +37,12 @@ export const Home = () => {
         // 👇️ push an object to the end of the state array
         setproductRealList(current => [...current, {id: productId, name: productName, type: productType, description: productDescription, productStatus: productStatusValue, dateCreated: dateCreated }]);
        setDynamicRoute(true)
+       setProductId("");
+       setProductName("")
+       setProductType("")
+       setProductDescription("");
+       setProductStatusValue("")
+       setDateCreated("")
        
       };
     const createAProductRoute = () => {
